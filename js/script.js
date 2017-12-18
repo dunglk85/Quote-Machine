@@ -27,7 +27,7 @@ document.getElementById("conti").onclick = function() {
 function autoShow(quotes) {
 	intervalId = setInterval(function() {
 		showQuote(quotes);
-	}, 2000);
+	}, 5000);
 }
 
 function showQuote(arr) {
