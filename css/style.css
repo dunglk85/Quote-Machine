@@ -1,0 +1,44 @@
+
+blockquote {
+	margin: 150px auto;
+	position: relative;
+	width: 600px;
+	height: 250px;
+	padding: 5px;
+	border: 1px solid red;
+	border-radius: 5px;
+	background-color: lightgreen;
+	box-shadow: 5px 5px 5px blue;
+}
+
+blockquote > p {
+	font-size: 1.6em;
+	text-align: center;
+}
+
+footer {
+	width: 550px;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+}
+
+footer > p {
+	font-size: 1.2em;
+	font-style: italic;
+	position: relative;
+	left: 245px;
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	position: relative;
+	left: 245px;
+}
+
+iframe {
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+}
