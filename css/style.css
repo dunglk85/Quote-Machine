@@ -37,7 +37,7 @@ button {
 	left: 245px;
 }
 
-iframe, .fb-share-button {
+iframe, .fb-share-button, .fb-xfbml-parse-ignore {
 	display: inline-block;
 	position: absolute;
 	left: 10px;
